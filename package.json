@@ -1,0 +1,29 @@
+{
+    "name":                 "node-doc-bs",
+    "description":          "generate node doc with bootstrap",
+    "bin": {
+        "node-doc-bs":      "./node-doc-bs.js"
+    },
+    "author":               "pmuellr",
+    "version":              "0.1.0",
+    "licenses": [{
+        "type":             "Apache License"
+    }],
+    "dependencies": {
+        "highlight.js":     "7.3.x",
+        "marked":           "0.2.x",
+        "shelljs":          "0.2.x",
+        "underscore":       "1.5.x"
+    },
+    "devDependencies": {
+        "coffee-script":    "1.6.x",
+        "wr":               "1.2.x"
+    },
+    "homepage":             "https://github.com/pmuellr/node-doc-bs",
+    "bugs":                 "https://github.com/pmuellr/node-doc-bs/issues",
+    "repository": {
+        "type":             "git",
+        "url":              "git://github.com/pmuellr/node-doc-bs"
+    }
+}
+
